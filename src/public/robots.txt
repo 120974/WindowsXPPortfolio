@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rishithchintala.github.io/portfolio-xp/sitemap.xml
