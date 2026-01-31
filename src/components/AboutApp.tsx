@@ -1,3 +1,11 @@
+import { DiffieHellman } from "crypto";
+import { Sparkles, ThumbsDown } from "lucide-react";
+import { isGenerator, microtask } from "motion/react";
+import { sortUserPlugins } from "vite";
+import WelcomePopup from "./WelcomePopup";
+import { getCenteredPosition } from "./utils/desktopUtils";
+import { workerData } from "worker_threads";
+
 interface AboutAppProps {
   isDarkMode?: boolean;
 }
